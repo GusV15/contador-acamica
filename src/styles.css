@@ -1,4 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(255, 226, 231);
+}
+
 .App {
   font-family: sans-serif;
   text-align: center;
+  width: 30em;
+  height: 30em;
+  border: 1px solid pink;
+  margin: 20px auto;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-end;
+  box-shadow: 0 0 0px 2px rgb(252, 178, 192);
+}
+
+.container {
+  margin: 0 auto;
+}
+
+h2 {
+  width: 100%;
+  margin-top: 90px;
+  font-size: 5em;
+}
+
+button {
+  width: 120px;
+  height: 50px;
+  margin: 60px 10px;
+  padding: 0px 5px;
+  color: #ffffff;
+  font-size: 0.8em;
+  letter-spacing: 0.1px;
+  justify-content: center;
+  background-color: rgb(255, 4, 234);
+  border: none;
+  border-radius: 1px;
+  box-shadow: 0px 0px 0px 3px rgb(255, 151, 170);
+}
+button:focus {
+  outline: none;
 }
